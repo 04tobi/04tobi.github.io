@@ -1,0 +1,118 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+		
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+	.top_menu{
+		width: 100%;
+	}
+
+	.top_menu ul{
+		text-align: center;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.main_mnu_button{
+		text-align: center;
+		padding-bottom: 10px;
+
+	}
+	.top_menu ul{
+		background-color: #2F7A85;
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 58px;
+		left: 0;
+		z-index: 200;
+		padding: 0;
+		margin-top: 22px;
+		text-align: center;
+		padding: 0 10px 0 10px;
+	}
+
+	.top_header ul li{
+		padding: 10px 5px 10px;
+		font-size: 14px;
+	}
+	.top_menu ul li{
+		display: block;
+	}
+
+	.col-md-12.owl-carousel.owl-dots{
+		margin-bottom: 50px
+	}
+	.s_learning .icon_wrap i{
+		margin-right: 70px ;
+	}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.contact_box{
+		width: 300px !important;
+		height: 300px !important;
+	}
+	.form_wrap input{
+		width: 200px;
+		line-height: normal;
+	}
+	.form_wrap textarea{
+		width: 200px;
+		line-height: normal;
+	}
+	.form_wrap button{
+		left: 36%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.s_learning .icon_wrap i{
+		margin-right: 40px ;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_menu ul{
+		display: block !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,208 @@
+@import "bourbon/bourbon"
+
+$green_color: #00d089
+$blue_color: #4c97a2
+
+body
+	font-family: "RobotoRegular", "sans-serif"
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+.hidden
+	display: none
+
+.top_header
+	background-color: $blue_color
+	color: #fff
+	.logo
+		font-family: "cherry_swashregular", "sans-serif"
+		font-size: 40px
+		display: inline-block
+		line-height: 80px
+
+	ul
+		text-align: center
+		padding: 25px 0 25px 0
+		text-align: right
+		line-height: 30px
+		li
+			list-style-type: none
+			display: inline
+			padding: 25px 15px 25px 0
+			font-size: 16px
+			a
+				color: #fff
+				text-transform: uppercase
+				text-decoration: none
+				-webkit-transition: all .25s
+				-o-transition: all .25s
+				transition: all .25s
+				&:hover
+					color: #dce3e4
+
+.main_mnu_button
+	background-color: transparent
+	border:none
+	cursor: pointer
+	text-align: right
+	padding-top: 30px
+	.fa
+		font-size: 32px
+		color: #fff
+
+.top_slider
+	background-image: url(../img/top_bg.jpg)
+	min-height: 550px
+	background-position:  center top
+	background-size: cover
+	width: 100%
+	background-repeat: no-repeat
+	text-align: center
+	.review_item
+		margin: auto
+		width: 100%
+		position: relative
+	h2
+		font-size: 44px
+		font-family: "RobotoBold", "sanse-serif"
+		color: #e4e4e4
+		text-transform: uppercase
+		margin-top: 130px	
+	.link_box
+		border: 3px solid #afb1b4
+		border-radius: 5px
+		display: inline-block
+		padding: 5px 40px
+		font-size: 24px
+		margin-top: 40px
+		a
+			color: #e4e4e4
+			text-decoration: none
+
+.col-md-12
+	.owl-carousel
+		.owl-dots
+			width: 100%
+			margin-top: 200px
+			margin-bottom: 50px
+			text-align: center
+			display: block
+			.owl-dot
+				width: 10px
+				height: 10px
+				background-color: #fff
+				display: inline-block
+				border-radius: 50%
+				opacity: .5
+				margin-left: 15px
+				&.active
+					opacity: 1
+
+.s_learning
+	text-align: center
+	color: #4c505d
+	margin: 50px 0
+	.text_wrap
+		display: inline-block
+		
+		margin-bottom: 50px
+	h3
+		font-family: "RobotoBold", "sans-serif"
+		font-size: 30px
+	p
+		font-size: 16px
+		margin-top: 40px
+	.icon_wrap
+		i
+			margin-right: 125px
+			font-size: 48px
+			color: #5eb6c4
+			&:last-child
+				margin-right: 0
+
+.s_dhavan
+	background-color: $green_color
+	text-align: center
+	color: #fff
+	min-height: 400px
+	.review_wrap
+		display: inline-block
+		text-align: center
+		padding: 70px 0
+		font-size: 18px
+		.photo_wrap
+			display: inline-block
+			margin: auto
+			margin-right: 20px
+			width: 135px
+			height: 135px
+			text-align: center
+			margin-bottom: 50px
+			img
+				width: 100%
+				border-radius: 50%
+.dhavan_wrap
+	display: inline-block
+	h4
+		font-size: 20px
+		font-family: "RobotoBold", "sans-serif"
+		text-transform: uppercase
+		font-weight: 600
+	.fa-quote-right
+		font-size: 120px
+		opacity: .6
+
+.contacts
+	background-image: url(../img/map_bg.jpg)
+	background-repeat: no-repeat
+	background-size: cover
+	.contact_box
+		margin: 50px auto
+		width: 430px
+		height: 430px
+		border-radius: 50%
+		background-color: #fdfdfd
+		opacity: .9
+		text-align: center
+
+.form_wrap
+	position: relative
+	display: inline-block
+	top: 25%
+	left: 0
+	right: 0
+	input,
+	textarea,
+		display: block
+		margin-bottom: 10px
+		line-height: 31px
+		text-indent: 10px
+		width: 300px
+	button
+		display: block
+		height: 60px
+		width: 60px
+		border: none
+		border-radius: 50%
+		background-image: url(../img/check_icon.png)
+		background-position:  center
+		position: relative
+		left: 40%
+		top: 20px
+
+
+.main_footer
+	background-color: #00d089
+	color: #fff
+	text-align: center
+	padding: 10px 0

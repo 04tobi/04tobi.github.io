@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'myFont';
+  src:  url('myFont.eot?lj75d');
+  src:  url('myFont.eot?lj75d#iefix') format('embedded-opentype'),
+    url('myFont.ttf?lj75d') format('truetype'),
+    url('myFont.woff?lj75d') format('woff'),
+    url('myFont.svg?lj75d#myFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.my {
+   /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'myFont' !important;
+  font-size: 26px;
+  display: inline-block;
+  font-style: normal;
+  /*Браузер сам решает тип отображения текста (приоритет скорости или красоты*/
+  text-rendering: auto;  
+color: #000;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my.my_сake:before {
+  content: "\e900";
+}
+.my.my_earth:before {
+  content: "\e901";
+}
+.my.my_suitcase:before {
+  content: "\e902";
+}
